@@ -79,7 +79,7 @@
         <button name="precedant" class="btn btn-small waves-effect waves-light teal"><i class="material-icons left">chevron_left</i>Retour</button>
     </form>
     <form action="index.php?p=users.recapitulatifpanier" method="POST">
-        <button name="suivant" class="btn btn-small waves-effect waves-light teal">Suivant<i class="material-icons right">chevron_right</i></button>
+        <button name="suivant" class="btn btn-small waves-effect waves-light teal">Suite<i class="material-icons right">chevron_right</i></button>
     </form>
 </section>
 

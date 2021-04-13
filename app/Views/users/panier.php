@@ -82,7 +82,7 @@
         <form method="post">
             <div class="center">
                 <button value="valid_panier" name="valid_panier" class="btn btn-small waves-effect waves-light teal">
-                    Valider le panier
+                    Valider
                 </button>
             </div>
         </form>

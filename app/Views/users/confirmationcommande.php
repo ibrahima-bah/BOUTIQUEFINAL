@@ -77,8 +77,19 @@
     </tbody>
 </table>
 <div class="center">
-    <form action="index.php?p=products.index" method="POST">
-        <input type="submit" name="valid_panier" value="Retour boutique" class="btn bouton m-1">
+    <form class="custom_form" action="index.php?p=products.index" method="POST">
+        <input type="submit" name="valid_panier" value="Retour Shop" class="btn bouton m-4 custom">
     </form>
 </div>
+
+<style>
+.custom_form {
+    display: flex;
+    justify-content:center;
+    align-items:center; 
+}
+.custom {
+    width: 200px;
+}
+</style>
 

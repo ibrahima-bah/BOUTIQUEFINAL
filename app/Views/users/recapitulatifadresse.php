@@ -78,7 +78,7 @@
                 Retour
             </button>
             <button name="suivant" value="1" class="btn btn-small waves-effect waves-light teal">
-                Suivant
+                Suite
                 <i class="material-icons right">chevron_right</i>
             </button>
         </section>
