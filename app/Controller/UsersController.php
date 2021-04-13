@@ -77,13 +77,13 @@ class UsersController extends AppController
                     $password_hash = password_hash($_POST['password'], PASSWORD_BCRYPT);
                     $result = $this->User->create(
                         [
-                            'email' => $_POST['email'],
-                            'nom' => $_POST['nom'],
-                            'prenom' => $_POST['prenom'],
+                            'email' => htmlspecialchars($_POST['email']),
+                            'nom' => htmlspecialchars($_POST['nom']),
+                            'prenom' => htmlspecialchars($_POST['prenom']),
                             'password' => $password_hash,
-                            'adresse_facturation' => $_POST['adresse'],
-                            'ville_facturation' => $_POST['ville'],
-                            'code_postal_facturation' => $_POST['cp']
+                            'adresse_facturation' => htmlspecialchars($_POST['adresse']),
+                            'ville_facturation' => htmlspecialchars($_POST['ville']),
+                            'code_postal_facturation' => htmlspecialchars($_POST['cp'])
                         ]
                     );
                     if ($result) {
@@ -280,13 +280,13 @@ class UsersController extends AppController
                 $result = $this->User->update(
                     $user->id,
                     [
-                        'email' => $_POST['email'],
-                        'prenom' => $_POST['prenom'],
-                        'nom' => $_POST['nom'],
-                        'adresse_facturation' => $_POST['adresse_facturation'],
-                        'adresse_livraison' => $_POST['adresse_livraison'],
-                        'ville_facturation' => $_POST['ville_facturation'],
-                        'ville_livraison' => $_POST['ville_livraison'],
+                        'email' => htmlspecialchars($_POST['email']),
+                        'prenom' => htmlspecialchars($_POST['prenom']),
+                        'nom' => htmlspecialchars($_POST['nom']),
+                        'adresse_facturation' => htmlspecialchars($_POST['adresse_facturation']),
+                        'adresse_livraison' => htmlspecialchars($_POST['adresse_livraison']),
+                        'ville_facturation' => htmlspecialchars($_POST['ville_facturation']),
+                        'ville_livraison' => htmlspecialchars($_POST['ville_livraison']),
                         'code_postal_facturation' => (string)$_POST['code_postal_facturation'],
                         'code_postal_livraison' => (string)$_POST['code_postal_livraison'],
                         'telephone' => $_POST['telephone']
