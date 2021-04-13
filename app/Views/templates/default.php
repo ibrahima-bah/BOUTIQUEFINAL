@@ -249,7 +249,7 @@ $isAdmin = \App\Entity\UserEntity::isAdmin();
         <div class="row ">
             <div class="col l6 s12">
                 <h5><a class="teal-text hover_footer" href="index.php">OLEG SHOP.</a></h5>
-                <p class="teal-text">Boutique de vêtements et des produits dérivés</p>
+                <p class="teal-text">Boutique de vente de  vêtements et de produits dérivés</p>
             </div>
 
             
@@ -280,7 +280,7 @@ $isAdmin = \App\Entity\UserEntity::isAdmin();
     </div>
     <div class="footer-copyright">
         <div class="container center ">
-            <p class="black-text">© 2021  IBRAHIMA BAH</p>
+            <p class="black-text">© 2021  IBRAHIMA BAH ET YANNIS STAALI</p>
         </div>
     </div>
 </footer>
