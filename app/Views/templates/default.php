@@ -247,19 +247,16 @@ $isAdmin = \App\Entity\UserEntity::isAdmin();
 <footer class="page-footer">
     <div class="container">
         <div class="row ">
-            <div class="col 4">
-                <h5><a class="teal-text hover_footer" href="index.php">OLEG SHOP.</a></h5>
-                <p class="teal-text">Boutique de vêtements et des produits dérivés</p>
-            </div>
-
-            <div class="col 4">
+            <div class="col l6 s12">
                 <h5><a class="teal-text hover_footer" href="index.php">OLEG SHOP.</a></h5>
                 <p class="teal-text">Boutique de vêtements et des produits dérivés</p>
             </div>
 
             
 
-            <div class="col-4">
+            
+
+            <div class="col l4 offset-l2 s12">
                 <h5 class="teal-text">Liens</h5>
                 <ul>
                     <li><a class="teal-text hover_footer" href="index.php?p=categories.index">Categories</a></li>
