@@ -45,7 +45,7 @@
             </p>
             <?php
             if ($product->stock == 0): ?>
-                <button type="submit" class="btn" name="add_to_basket" disabled>Ajouter au panier</button>
+                <button type="submit" class="btn" name="add_to_basket" disabled>Ajouter</button>
                 <p>Nous sommes désolé, il n'y a plus de stock pour ce produit :(</p>
             <?php
             else : ?>
